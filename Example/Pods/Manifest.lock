@@ -1,0 +1,17 @@
+PODS:
+  - PXIconTextView (0.1.2):
+    - UIPlaceholderTextView
+  - UIPlaceholderTextView (0.1.3)
+
+DEPENDENCIES:
+  - PXIconTextView (from `../`)
+
+EXTERNAL SOURCES:
+  PXIconTextView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PXIconTextView: 670c3f6a4d5f57e084a3200bfa332082b71f6d92
+  UIPlaceholderTextView: 9b47dc3e6513b13186932fd265462dfd25679e59
+
+COCOAPODS: 0.38.2

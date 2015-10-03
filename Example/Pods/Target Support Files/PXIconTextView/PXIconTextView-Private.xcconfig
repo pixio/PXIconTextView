@@ -1,0 +1,6 @@
+#include "PXIconTextView.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/PXIconTextView" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/PXIconTextView" "${PODS_ROOT}/Headers/Public/UIPlaceholderTextView"
+OTHER_LDFLAGS = ${PXICONTEXTVIEW_OTHER_LDFLAGS}
+PODS_ROOT = ${SRCROOT}
+SKIP_INSTALL = YES

@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'PXIconTextView', :exclusive => true do
+  pod "PXIconTextView", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "PXIconTextView", :path => "../"
+
+
+end
