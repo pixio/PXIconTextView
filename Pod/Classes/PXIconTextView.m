@@ -113,7 +113,7 @@
 /**
  *  Update the height of the input view to reflect the text height
  */
-- (void) updateInputSize
+- (void)updateInputSize
 {
     // resize based on text change
     [[_textView layoutManager] ensureLayoutForTextContainer:[_textView textContainer]];

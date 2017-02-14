@@ -34,7 +34,7 @@
 /**
  *  The font to use for this instance.
  */
-@property (nonatomic) UIFont* font UI_APPEARANCE_SELECTOR;
+@property (nonatomic, nullable) UIFont * font UI_APPEARANCE_SELECTOR;
 
 /**
  *  The minimum height of the text view with 1 line of text. The default value is 36.
@@ -49,17 +49,17 @@
 /**
  *  The icon to display in the top left corner of the text view.
  */
-@property (nonatomic) UIImage * icon;
+@property (nonatomic, nullable) UIImage * icon;
 
 /**
  *  Placeholder text for the textview.
  */
-@property (nonatomic, copy) NSString * placeholder;
+@property (nonatomic, copy, nullable) NSString * placeholder;
 
 /**
  *  The text in the textview.
  */
-@property (nonatomic, copy) NSString * text;
+@property (nonatomic, copy, nullable) NSString * text;
 
 /**
  *  The textview delegate.
